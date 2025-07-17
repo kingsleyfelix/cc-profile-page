@@ -110,7 +110,6 @@ body {
 .nav-item {
 	display: flex;
 	align-items: center;
-	gap: 12px;
 	padding: 10px 12px;
 	color: #374151;
 	text-decoration: none;
@@ -118,6 +117,10 @@ body {
 	margin-bottom: 0.625rem;
 	transition: background-color 0.2s;
 	position: relative;
+}
+
+.nav-item i {
+  margin-right: 12px;
 }
 
 .nav-item:hover {
@@ -405,6 +408,11 @@ body {
   margin-left: 7px;
   color: rgb(0, 255, 0);
 }
+
+.check2{
+  font-size: 10px;
+}
+
 .portfolio-btn {
   margin-top: 0.5rem;
   background: rgba(128, 0, 220, 1);
